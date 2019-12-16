@@ -1,6 +1,10 @@
 server:
   port: 81
 
+feign:
+  hystrix:
+    enabled: true  #启动hystrix
+
 eureka:
   client:
     register-with-eureka: false
